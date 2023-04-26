@@ -161,10 +161,10 @@ h1, h2, h3, h4, h5{
     display: flex;
     flex-wrap: wrap;
 
-
+    justify-content: end;
 }
-/* three */
 
+/* three */
 .three_content{
     margin-top: 150px;
     color: #fff;
@@ -228,4 +228,150 @@ h1, h2, h3, h4, h5{
 
 .info_right_block_d{
     width: 466px;
+}
+
+/* four block */
+.four_content{
+    margin-top: 150px;
+    color: #fff;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column; 
+}
+
+.name_service{
+    list-style-image: url(../image/bluelist.png);
+
+    display: flex;
+    align-items: start;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.price_service{
+    list-style: none;
+    font-weight: bold;
+
+
+    display: flex;
+    align-items: start;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.foto_service{
+    display: flex;
+
+    align-items: center;
+    flex-direction:column;
+    
+    
+    width: 526px;
+}
+
+.price_and_name{
+    width: 466px;
+
+
+    line-height:50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service_block_four{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    margin-top: 100px;
+
+    justify-content: space-around;
+}
+
+.foto_service_text{
+    margin-top: 30px;
+}
+
+/* five block*/
+.five_content{
+    margin-top: 150px;
+    color: #fff;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.map{
+    display: flex;
+    justify-content: start;
+}
+
+.Navigate_block_map{
+    display: flex;
+
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.Name_Shop{
+    width: 392px;
+    height: 290px;
+
+    background-color: rgba(1, 138, 190, 1);
+    border-style: none;
+    border-radius: 3px;
+
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: start; 
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 35px;
+}
+
+.ico_text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ico{
+    width: 18px;
+    height: 19px;
+
+    margin-right: 10px;
+}
+
+.map_but{
+    background: rgba(255, 255, 255, 1);
+    border-style: none;
+    border-radius: 3px;
+    color: #fff;
+    width: 155px;
+    height: 36px;
+    
+    color:rgba(1, 138, 190, 1);
+}
+/* footer */
+.footer_content{
+    margin-top: 90px;
+    color: #fff;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.final{
+    display: flex;
+    justify-content: space-between;
 }
